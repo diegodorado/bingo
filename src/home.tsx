@@ -13,6 +13,14 @@ const Home = () => {
 
   return (
     <div className="setup">
+      <p>Hecho como regalo a mi madre durante la cuarentena del COVID-19.</p>
+      <p>
+        Código disponible en{' '}
+        <a href="https://github.com/diegodorado/bingo" target="_blank">
+          github.com/diegodorado/bingo
+        </a>
+      </p>
+
       {match && isOwner && (
         <div>
           <button onClick={() => navigate(`/${match.id}/edit`)}>
