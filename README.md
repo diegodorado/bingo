@@ -5,6 +5,10 @@
 This is a browser-based multiplayer Bingo game built with TypeScript and modern frontend tooling. 
 It uses [Ably](https://ably.com) for real-time communication between players.
 
+> ⚠️ **Disclaimer**  
+> This project was created for personal use and shared as-is. No special effort has been made (yet) to make the code easy to understand, well-documented, or suitable for general reuse.
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
