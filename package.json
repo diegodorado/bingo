@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "Music Bingo",
   "source": "src/index.html",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "browserslist": [
+    "since 2015-06"
+  ],
   "repository": "git@github.com:diegodorado/bingo.git",
   "author": "Diego Dorado <diegodorado@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "parcel",
-    "build": "rimraf dist/* && parcel build --no-cache --no-autoinstall",
+    "build": "parcel build --no-cache --no-autoinstall",
     "pre-commit": "lint-staged -v"
   },
   "devDependencies": {
@@ -24,7 +26,6 @@
     "lint-staged": "^15.2.7",
     "parcel": "^2.12.0",
     "process": "^0.11.10",
-    "rimraf": "^5.0.7",
     "typescript": "^5.4.5"
   },
   "dependencies": {
@@ -36,7 +37,6 @@
     "react-icons": "^5.5.0",
     "startaudiocontext": "^1.2.1",
     "tone": "15.1.22",
-    "valtio": "^2.1.5",
     "zustand": "^5.0.5"
   }
 }

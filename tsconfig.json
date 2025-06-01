@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "target": "esnext",
+    "target": "es6",
     "allowJs": true,
     "outDir": "./.tsbuild/",
     "moduleResolution": "node",
